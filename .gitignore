@@ -1,3 +1,11 @@
+# IMG y otros mios
+*.IMG
+*.pug
+*.jpg
+*.docx
+*.pdf
+\Escritos\
+\img\
 # Logs
 logs
 *.log
