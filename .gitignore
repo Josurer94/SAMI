@@ -6,6 +6,7 @@
 *.pdf
 \Escritos\
 \img\
+\pug_files\
 # Logs
 logs
 *.log
