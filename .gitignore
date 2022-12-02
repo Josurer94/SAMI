@@ -4,9 +4,10 @@
 *.jpg
 *.docx
 *.pdf
-\Escritos\
-\img\
-\pug_files\
+*.txt
+\Escritos
+\img
+\pug_files
 # Logs
 logs
 *.log
