@@ -1,13 +1,3 @@
-# IMG y otros mios
-*.IMG
-*.pug
-*.jpg
-*.docx
-*.pdf
-*.txt
-\Escritos
-\img
-\pug_files
 # Logs
 logs
 *.log

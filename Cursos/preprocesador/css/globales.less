@@ -1,0 +1,34 @@
+@color-primario: purple;
+@color-claro: white;
+@color-variante: blue;
+@color-secundario: grey;
+@Fuente1: 'lato', sans-serif;
+@Fuente2: 'Oswald', sans-serif;
+@Fuentebase: 18px;
+.sombra-caja{
+	box-shadow: 0px 5px 15px 0px fade(@color-primario, 10%);
+}
+.oswald{
+	font-family: @Fuente2;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.fuente(@font-size){
+	font-size: @font-size;
+	line-height: @font-size + 10%;
+}
+
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: @Fuente1;
+	.fuente(@Fuentebase)
+}
+
+h1,h2,h3 {
+	.oswald;
+	margin: 0;
+}
